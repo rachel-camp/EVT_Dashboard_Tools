@@ -1,0 +1,26 @@
+﻿my-user-info {
+    .left {
+        margin-right: 40px;
+    }
+
+    .error {
+        color: red;
+    }
+
+    .md-body-2 {
+        font-weight: bold;
+    }
+
+    evt-widget md-card-content > header {
+        background-color: #333;
+        color: whitesmoke;
+
+        .evt-header, .evt-body-light, md-icon {
+            color: whitesmoke;
+        }
+    }
+
+    widget-body {
+        overflow: auto;
+    }
+}

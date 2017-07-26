@@ -1,0 +1,46 @@
+﻿my-log-search {
+    $background-color: #eee;
+    $search-input-offset: 40px;
+
+    md-toolbar {
+        background: $background-color !important;
+    }
+
+    md-autocomplete {
+        input {
+            margin-left: $search-input-offset;
+        }
+    }
+
+    input {
+        border: 0px;
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    form {
+        margin-left: $search-input-offset;
+    }
+
+    .search-icon {
+        color: #BDBDBD;
+        position: relative;
+        right: -$search-input-offset;
+        z-index: 1;
+    }
+
+    select {
+        border: 1px;
+        background-color: transparent;
+        margin: 10px;
+    }
+
+    button {
+        margin: 10px;
+    }
+
+    .md-toolbar-tools {
+        position: relative;
+    }
+}
